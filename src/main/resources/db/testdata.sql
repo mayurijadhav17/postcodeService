@@ -1,0 +1,1 @@
+CREATE TABLE postcode AS SELECT * FROM CSVREAD('classpath:db/postcode.csv');
